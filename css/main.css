@@ -88,3 +88,19 @@ table td{
 table{
     background-color: #E2E8F0;
 }
+
+.btn-excluir {
+    background-color: #EF4444; 
+    color: #ffffff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background-color 0.3s ease; 
+}
+
+.btn-excluir:hover {
+    background-color: #DC2626; 
+}
