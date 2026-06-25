@@ -15,14 +15,14 @@
             <img src="./images/simboloTelefone.jpg" alt="Simbolo de telefone" />
             <h1>Agenda Telêfonica</h1>
         </header>
-        <form>
+        <form id="form-agenda">
             <h2>Nome:</h2>
             <input id="nome-contato" type="text" required placeholder="Nome do Contato" />
             <h2>Número do contato:</h2>
-            <input type="tel" required placeholder="(DD) 90000-0000" />
+            <input id="telefone-contato" type="tel" required placeholder="(DD) 90000-0000" />
             <button type="submit">Cadastrar+</button>
         </form>
-        <table cellspacing="0">
+        <table cellspacing="20">
             <thead>
                 <tr>
                     <th>Nome do contato</th>
@@ -30,18 +30,15 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>Vitor</td>
-                    <td>9971231231</td>
-                </tr>
             </tbody>
             <tfoot>
             <tr>
                 <td>Total de contatos</td>
-                <td>15</td>
+                <td>---</td>
             </tr>
         </tfoot>
         </table>
     </div>
+    <script src="./js/main.js"></script>
 </body>
 </html>
